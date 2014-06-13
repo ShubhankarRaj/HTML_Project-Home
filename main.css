@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+body{
+	margin:0;
+	background: gradient linear orange black;
+}
+header{
+	background: grey;
+	color: white;
+	padding 5px 5px 0 5px;
+}
+
+header h1{
+	margin:0;
+}
+
+nav ul{
+	margin:0;
+	display:inline;
+}
+
+nav ul li{
+	background: black;
+	padding: 5px;
+	border-radius: 10px;
+	color: white;
+	display: inline-block;
+	line-style-type: none;
+	margin: 0;
+	padding 5px 5px 0 5px;
+}
+
+nav ul li a{
+	color: white;
+}
+
+.row:after{
+	clear: both;
+}
+	
+.col{
+	background: yellow;
+	border-radius: 10px;
+	padding: 5px 5px 5px 5px;
+	float: left;
+	margin: 1%;
+	width: 30%;
+}
+
+footer{
+	
+}
